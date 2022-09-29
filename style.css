@@ -37,15 +37,15 @@ nav a {
 }
 
 nav a:link {
-    color: #000033;
+    color: #ffffff;
 }
 
 nav a:visited {
-    color: #5f6278;
+    color: #ffffff;
 }
 
 nav a:hover {
-    color: #ffffff;
+    color: #e63002;
 }
 
 #wrapper {
@@ -59,16 +59,21 @@ nav a:hover {
 }
 
 #homeimage {
-    height: 300px;
-    background-image: url(images/home_page.JPG);
+    height: 350px;
+    background-image: url(images/home_page2.JPG);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    margin-left: 170px;
+}
+
+#projectimage {
+    height: 350px;
+    background-image: url(images/portfolio_header.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 main {
     background-color: #FFFFFF;
-    margin-left: 170px;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-left: 2em;
@@ -76,12 +81,16 @@ main {
     display: block;
 }
 
+h2 {
+    color: #e63002;
+}
+
 footer {
     font-size: .70em;
     font-style: italic;
     text-align: center;
     padding: 1em;
-    margin-left: 170px;
+    background-color: #FFFFFF;
 }
 
 * {
