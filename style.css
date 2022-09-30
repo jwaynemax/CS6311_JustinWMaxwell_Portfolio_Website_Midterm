@@ -79,6 +79,13 @@ nav a:hover {
     background-repeat: no-repeat;
 }
 
+#aboutmeimage {
+    height: 350px;
+    background-image: url(images/aboutme.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 main {
     background-color: #FFFFFF;
     padding-top: 1px;
@@ -154,6 +161,40 @@ h3 {
 
 * {
     box-sizing: border-box;
+}
+
+#threeColumn {
+    display: flex;
+    flex-direction: row;
+}
+
+#flexOne {
+    flex: 1;
+}
+
+#flexTwo {
+    flex: 1;
+}
+
+#flexThree {
+    flex: 1;
+}
+
+#flexOne h4 {
+    text-align: center;
+}
+
+#flexTwo h4 {
+    text-align: center;
+}
+
+#flexThree h4 {
+    text-align: center;
+}
+
+#threeColumn hr {
+    margin-right: 1em;
+    margin-left: 1em;
 }
 
 header,
