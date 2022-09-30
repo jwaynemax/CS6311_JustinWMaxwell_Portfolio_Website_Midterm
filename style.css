@@ -85,6 +85,27 @@ h2 {
     color: #e63002;
 }
 
+dt {
+    font-weight: bold;
+}
+
+dd img {
+    float: right;
+    display: inline;
+    height: 100px;
+}
+
+.CenterImages {
+    display: flex;
+    justify-content: center;
+}
+
+.projectImages {
+    height: 150px;
+    width: 200px;
+    padding: 10px;
+}
+
 footer {
     font-size: .70em;
     font-style: italic;
