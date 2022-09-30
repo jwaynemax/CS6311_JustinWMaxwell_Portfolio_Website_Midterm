@@ -41,7 +41,7 @@ nav a:link {
 }
 
 nav a:visited {
-    color: #ffffff;
+    color: #aaaaaa;
 }
 
 nav a:hover {
@@ -60,14 +60,14 @@ nav a:hover {
 
 #homeimage {
     height: 350px;
-    background-image: url(images/home_page2.JPG);
+    background-image: url(images/home.JPG);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
 
 #projectimage {
     height: 350px;
-    background-image: url(images/portfolio_header.jpg);
+    background-image: url(images/project.jpg);
     background-size: 100% 100%;
     background-repeat: no-repeat;
 }
