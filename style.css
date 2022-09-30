@@ -132,6 +132,14 @@ th {
     border: 1px solid #000033;
 }
 
+h3 {
+    text-decoration: underline;
+}
+
+.resumeDate {
+    font-style: italic;
+}
+
 * {
     box-sizing: border-box;
 }
