@@ -72,6 +72,13 @@ nav a:hover {
     background-repeat: no-repeat;
 }
 
+#resumeimage {
+    height: 350px;
+    background-image: url(images/resume.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
 main {
     background-color: #FFFFFF;
     padding-top: 1px;
