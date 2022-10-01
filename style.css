@@ -167,10 +167,6 @@ h3 {
     padding-top: .5em;
 }
 
-* {
-    box-sizing: border-box;
-}
-
 #threeColumn {
     display: flex;
     flex-direction: row;
@@ -205,6 +201,10 @@ h3 {
     margin-left: 1em;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 header,
 nav,
 main,
@@ -226,47 +226,18 @@ footer {
         box-shadow: none;
     }
 
-    h1 {
-        margin: 0;
+    .mobile {
+        display: none;
     }
 
-    nav {
-        float: none;
-        width: auto;
-        padding-top: 0.01em;
-        padding-bottom: 0.01em;
-        padding-left: 1em;
-        padding-right: 1em;
-    }
-
-    nav li {
-        display: inline-block;
-    }
-
-    nav a {
-        padding-right: 2em;
+    .desktop {
+        display: inline;
     }
 
     main {
         padding: 1em;
         margin-left: 0;
         font-size: 90%;
-    }
-
-    footer {
-        margin: 0;
-    }
-
-    #homehero {
-        margin-left: 0;
-    }
-
-    #yurthero {
-        margin-left: 0;
-    }
-
-    #trailhero {
-        margin-left: 0;
     }
 }
 
@@ -278,13 +249,18 @@ footer {
     nav {
         padding: 0;
         display:inline;
+        float: none;
+        width: auto;
+        padding-top: 0.01em;
+        padding-bottom: 0.01em;
+        padding-left: 1em;
+        padding-right: 1em;
     }
 
     nav a {
         padding: 0.2em;
         font-size: 1.1em;
         border-bottom: 1px;
-        border-color: #330000;
     }
 
     nav ul {
@@ -296,6 +272,14 @@ footer {
         display: block;
         margin: 0;
         padding: 0;
+    }
+
+    .mobile {
+        display: inline;
+    }
+
+    .desktop {
+        display: none;
     }
 
     main {
@@ -336,13 +320,5 @@ footer {
 
     #threeColumn {
         display: inline;
-    }
-
-    .mobile {
-        display: inline;
-    }
-
-    .desktop {
-        display: none;
     }
 }
